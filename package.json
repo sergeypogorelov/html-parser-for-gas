@@ -1,11 +1,14 @@
 {
   "name": "html-parser-for-gas",
   "version": "1.0.0",
-  "description": "",
+  "description": "HTML Parser for Google Apps Script",
   "private": "true",
   "scripts": {
     "build": "rimraf dist && webpack --config webpack.config.js",
-    "push": "npm run build && clasp push",
+    "push:build": "npm run build && clasp push",
+    "push": "clasp push",
+    "login": "clasp login",
+    "logout": "clasp logout",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sergey.pogorelov.93@gmail.com",
