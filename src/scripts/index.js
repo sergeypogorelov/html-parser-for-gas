@@ -1,5 +1,7 @@
-function test() {
-    console.log('qq');
+const $ = require('cheerio');
+
+function getInstance() {
+    return $;
 }
 
-global.test = test;
+global.getInstance = getInstance;

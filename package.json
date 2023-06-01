@@ -17,5 +17,8 @@
     "rimraf": "^5.0.1",
     "webpack": "^5.85.0",
     "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
   }
 }
